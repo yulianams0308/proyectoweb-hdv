@@ -1,0 +1,356 @@
+/* ENCABEZADO*/
+
+
+/* nav {
+    background-color: rgb(55, 9, 223);
+    color: rgb(255, 255, 255);
+    size: 10px;
+    font-size: xx-large;
+} */
+
+h1 {
+    background-color: rgb(55, 9, 223);
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+h1.hdv {
+    background-color: rgb(255, 255, 255);
+    color: rgb(119, 119, 119);
+    text-align: center;
+    font-size: 45px;
+    /* border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 20px; */
+    padding: 0px;
+    padding-top: 0;
+    padding-right: 20px;
+    top: 150px;
+    margin-bottom: 100px;
+    margin-left: 900px;
+    position: absolute;
+    left: 0px;
+}
+
+img {
+    /* margin: auto;
+    margin-top: 0px;
+    margin-left: 100px;
+    position: absolute; */
+    padding: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+    position: absolute;
+    border-radius: 80px;
+}
+
+table {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}
+
+p.nombre {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.fechanac {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 57px;
+    padding-right: 57px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 360px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.cedula {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 420px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.correo {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 480px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.pst1 {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 720px;
+    position: absolute;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.pst2 {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 720px;
+    position: absolute;
+    margin-top: 360px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.pst3 {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 720px;
+    position: absolute;
+    margin-top: 420px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.primaria {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.secundaria {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: 360px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.profesional {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: 420px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.telefono {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 99px;
+    padding-right: 99px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 1412px;
+    position: absolute;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.email {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 1413px;
+    position: absolute;
+    margin-top: 360px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.emaili {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 1415px;
+    position: absolute;
+    margin-top: 420px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p.perfil {
+    border: 1px solid gray;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-bottom: 10px;
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 210px;
+    position: absolute;
+    margin-top: 560px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 1300px;
+    height: 100px;
+    text-align: center;
+}
+
+p.otro {
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 210px;
+    position: absolute;
+    margin-top: 720px;
+    margin-bottom: 100px;
+    color: gray;
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 1300px;
+    height: 100px;
+    text-align: center;
+}
+
+a.button {
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 540px;
+    position: absolute;
+    margin-top: 620px;
+    margin-bottom: 100px;
+}
+
+a.button2 {
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 610px;
+    position: absolute;
+    margin-top: 620px;
+    margin-bottom: 100px;
+}
+
+a.button3 {
+    top: 100px;
+    margin-bottom: 150px;
+    margin-left: 670px;
+    position: absolute;
+    margin-top: 620px;
+    margin-bottom: 100px;
+}
